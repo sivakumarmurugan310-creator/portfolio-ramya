@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", Arial, sans-serif;
+}
+
+body {
+    background: #f4f6fb;
+    color: #333;
+}
+
+nav {
+    background: #0f172a;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 80px;
+    position: sticky;
+    top: 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 30px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+
+header {
+    text-align: center;
+    padding: 70px 20px;
+    background: linear-gradient(to right, #1e3a8a, #0f172a);
+    color: white;
+}
+
+header h1 {
+    font-size: 38px;
+}
+
+.title {
+    font-size: 18px;
+    margin-top: 8px;
+}
+
+.social-links a {
+    color: white;
+    font-size: 22px;
+    margin: 10px;
+}
+
+
+.section {
+    background: white;
+    margin: 35px 120px;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.05);
+}
+
+.section h2 {
+    color: #0f172a;
+    margin-bottom: 12px;
+}
+
+
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 15px;
+}
+
+.skills-grid div {
+    background: #e0e7ff;
+    color: #1e3a8a;
+    padding: 12px;
+    border-radius: 6px;
+    text-align: center;
+    font-weight: 500;
+}
+.card {
+    background: #f1f5f9;
+    padding: 18px;
+    border-radius: 8px;
+    margin-top: 12px;
+}
+
+.cert-list {
+    list-style: none;
+}
+
+.cert-list li {
+    margin: 12px 0;
+}
+
+.cert-list a {
+    text-decoration: none;
+    color: #1e3a8a;
+    font-weight: 500;
+}
+
+
+footer {
+    background: #0f172a;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
